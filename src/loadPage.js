@@ -1,8 +1,12 @@
 
 export function initialLoad(){
   
-    // Create the H1
     const contentDiv = document.querySelector("#content");
+
+    // Remove any existing DOM children
+    contentDiv.replaceChildren();
+
+    // Create the H1
     const h1Title = document.createElement("h1");
     h1Title.textContent = "Tony's Pizza"
     h1Title.classList.add("title");

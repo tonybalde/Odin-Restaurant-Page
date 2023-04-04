@@ -1,5 +1,54 @@
 body{
+    display: flex;
+    flex-direction: column;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+
+    background-color: rgb(255, 205, 67);
+    box-shadow: 2px 1px 4px #222;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 205, 67);
+    height: 100px;
+    width: 100vw;
+    font-weight: 700;
+    gap: 8px;
+}
+
+.image{
+    height: 400px;
+}
+
+a{
+    text-decoration: none;
+    color: #111;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.linkedin{
+    height: 32px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 18px;
+    margin: 8px;
+}
+
+li {
+    font-size: 24px;
+    font-weight: 700;
+    font-style: italic;
 }
 
 #content{
@@ -28,7 +77,6 @@ body{
     margin-bottom: 15px;
     box-shadow: 2px 1px 5px #222;
 }
-
 
 .para-home{
     font-size: 28px;
