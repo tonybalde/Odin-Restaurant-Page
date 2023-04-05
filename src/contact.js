@@ -14,7 +14,7 @@ export function contact() {
     // DOM for phoneImage
     const phoneImage = document.createElement("img");
     phoneImage.classList.add("image");
-    phoneImage.src = "../images/phone.jpg";
+    phoneImage.src = "/images/phone.jpg";
     phoneImage.alt = "Image of phone";
     contentDiv.appendChild(phoneImage);
 
@@ -27,7 +27,7 @@ export function contact() {
     // DOM for emailImage
     const emailImage = document.createElement("img");
     emailImage.classList.add("image");
-    emailImage.src = "../images/email.jpg";
+    emailImage.src = "/images/email.jpg";
     emailImage.alt = "Image of email";
     contentDiv.appendChild(emailImage);
 
@@ -40,7 +40,7 @@ export function contact() {
     // DOM for addressImage
     const topImage = document.createElement("img");
     topImage.classList.add("image");
-    topImage.src = "../images/address.jpg";
+    topImage.src = "/images/address.jpg";
     topImage.alt = "Image of mailing address";
     contentDiv.appendChild(topImage);
 
@@ -49,6 +49,5 @@ export function contact() {
     para3AddressImage.classList.add("contact-copy");
     para3AddressImage.textContent = "Our address is 4321 Fake Street, Some Town, Some Country";
     contentDiv.appendChild(para3AddressImage);
-
 
 }
