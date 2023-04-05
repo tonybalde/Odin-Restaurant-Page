@@ -1,0 +1,284 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 205, 67);
+    box-shadow: 2px 1px 4px #222;
+    gap: 42px;
+}
+
+.menu-icon{
+    height: 24px;
+}
+
+.image{
+    height: 400px;
+    border-radius: 15px;
+    box-shadow: 2px 1px 4px #222;
+}
+
+.image:hover{
+    box-shadow: 4px 2px 5px #222;
+}
+
+.landing-title{
+    font-size: 42px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.menu-copy, .contact-copy {
+    padding: 16px;
+    font-weight: 700;
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 205, 67);
+    height: 100px;
+    width: 100%;
+    font-weight: 700;
+    gap: 8px;
+    box-shadow: 2px 2px 15px #222;
+}
+
+a{
+    text-decoration: none;
+    color: #111;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.linkedin{
+    height: 32px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 28px;
+    margin: 8px;
+}
+
+li {
+    display: flex;
+    gap: 4px;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 52px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.home-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 500px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    box-shadow: 2px 1px 5px #222;
+}
+
+.para-home{
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+@media screen and (min-width: 280px) and (max-width:375px){
+    
+
+header{
+    font-size: 8x;
+    width: 100%;
+    position: fixed;
+}
+
+#content{
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+}
+
+footer{
+    position: fixed;
+    width: 100%;
+    margin-top: 90vh;
+    box-shadow: 2px 2px 15px #222;
+}
+
+ul{
+    gap: 4px;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    gap: 4px;
+}
+
+.home-img, .image{
+    width: 250px;
+    height: auto;
+}
+
+.title, .landing-title{
+    display: flex;
+    text-align: center;
+    font-size: 32px;
+}
+
+.menu-copy, .contact-copy{
+    text-align: center;
+}
+
+.para-home{
+    display: flex;
+    text-align: center;
+}
+
+}
+
+@media screen and (min-width: 376px) and (max-width:768px){
+    
+
+    header{
+        font-size: 8x;
+        width: 100%;
+        position: fixed;
+    }
+    
+    #content{
+        margin-top: 5vh;
+        margin-bottom: 10vh;
+    }
+    
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        width: 100%;
+        margin-top: 90vh;
+        box-shadow: 2px 2px 15px #222;
+    }
+    
+    ul{
+        gap: 4px;
+    }
+    
+    li{
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        gap: 4px;
+    }
+    
+    .home-img, .image{
+        width: 250px;
+        height: auto;
+    }
+    
+    .title, .landing-title{
+        display: flex;
+        text-align: center;
+        font-size: 32px;
+    }
+    
+    .menu-copy, .contact-copy{
+        text-align: center;
+    }
+    
+    .para-home{
+        display: flex;
+        text-align: center;
+    }
+    
+}
+
+@media screen and (min-width: 769px){
+    
+
+    header{
+        font-size: 18x;
+        width: 100%;
+        position: fixed;
+    }
+    
+    #content{
+        margin-top: 5vh;
+        margin-bottom: 10vh;
+    }
+    
+    footer{
+        position: fixed;
+        width: 100%;
+        margin-top: 91vh;
+        font-size: 26px;
+        box-shadow: 2px 2px 15px #222;
+    }
+    
+    ul{
+        gap: 14px;
+    }
+    
+    li{
+        display: flex;
+        align-items: center;
+        font-size: 26px;
+        gap: 14px;
+    }
+    
+    .home-img, .image{
+        width: 450px;
+        height: auto;
+    }
+    
+    .title, .landing-title{
+        display: flex;
+        text-align: center;
+        font-size: 32px;
+    }
+    
+    .menu-copy, .contact-copy{
+        text-align: center;
+        font-size: 22px;
+    }
+    
+    .para-home{
+        display: flex;
+        text-align: center;
+        font-size: 22px;
+    }
+    
+    }
+    
