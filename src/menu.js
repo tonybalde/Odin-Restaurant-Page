@@ -8,7 +8,7 @@ export function menu() {
 
     // DOM for heading
     const heading = document.createElement("h1");
-    heading.textContent = "Im the HEADING";
+    heading.textContent = "Try one of ours bests!";
     heading.classList.add("landing-title");
     contentDiv.appendChild(heading);
 

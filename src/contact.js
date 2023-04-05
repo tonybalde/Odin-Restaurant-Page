@@ -14,7 +14,7 @@ export function contact() {
     // DOM for phoneImage
     const phoneImage = document.createElement("img");
     phoneImage.classList.add("image");
-    phoneImage.src = "/images/phone.png";
+    phoneImage.src = "/images/phone.jpg";
     phoneImage.alt = "Image of phone";
     contentDiv.appendChild(phoneImage);
 
@@ -27,9 +27,9 @@ export function contact() {
     // DOM for emailImage
     const emailImage = document.createElement("img");
     emailImage.classList.add("image");
-    emailImage.src = "/images/email.png";
+    emailImage.src = "/images/email.jpg";
     emailImage.alt = "Image of email";
-    appendChild(emailImage);
+    contentDiv.appendChild(emailImage);
 
     // DOM for P tag for emailImage
     const para1EmailImage = document.createElement("p");
@@ -40,9 +40,9 @@ export function contact() {
     // DOM for addressImage
     const topImage = document.createElement("img");
     topImage.classList.add("image");
-    topImage.src = "/images/mail.png";
+    topImage.src = "/images/address.jpg";
     topImage.alt = "Image of mailing address";
-    appendChild(topImage);
+    contentDiv.appendChild(topImage);
 
     // DOM for P tag for emailImage
     const para3AddressImage = document.createElement("p");
