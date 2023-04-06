@@ -15,7 +15,7 @@ export function menu() {
     // DOM for greenBeanCass
     const greenBeasCass = document.createElement("img");
     greenBeasCass.classList.add("image");
-    greenBeasCass.src = "/images/muzzarella.jpg";
+    greenBeasCass.src = "images/muzzarella.jpg";
     greenBeasCass.alt = "Image of Muzzarella Pizza";
     contentDiv.appendChild(greenBeasCass);
 
@@ -28,7 +28,7 @@ export function menu() {
     // DOM for macnCheese
     const macnCheese = document.createElement("img");
     macnCheese.classList.add("image");
-    macnCheese.src = "/images/pepperoni.jpg"
+    macnCheese.src = "images/pepperoni.jpg"
     macnCheese.alt = "Image of a Pepperoni Pizza";
     contentDiv.appendChild(macnCheese);
 

@@ -15,7 +15,7 @@ export function initialLoad(){
     // Create the image
     const topImage = document.createElement("img");
     topImage.classList.add("home-img");
-    topImage.src = "/images/pizza.jpg";
+    topImage.src = "images/pizza.jpg";
     topImage.alt = "Restaurant Image";
     contentDiv.appendChild(topImage);
 
